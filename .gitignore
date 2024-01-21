@@ -66,7 +66,20 @@ modules.builtin
 #
 # Debian directory (make deb-pkg)
 #
-/debian/
+#/debian/
+
+#
+# Droidian build files
+#
+/out/
+/debian/changelog
+/debian/.debhelper
+/debian/debhelper-build-stamp
+/debian/files
+/debian/path-override
+/debian/linux-image-*
+/debian/linux-headers-*
+/debian/linux-bootimage-*
 
 #
 # Snap directory (make snap-pkg)
